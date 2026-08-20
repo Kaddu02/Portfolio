@@ -168,6 +168,7 @@ function LiveProjectButton() {
 }
 
 function HeroSection() {
+  const baseUrl = import.meta.env.BASE_URL;
   return (
     <section className="hero-section">
       <nav className="hero-nav">
@@ -178,7 +179,7 @@ function HeroSection() {
       </div>
       <div className="hero-portrait-wrap">
         <div className="hero-portrait-glow" />
-        <img className="hero-portrait" src="/hero-3d-cutout.png" alt="3D portrait inspired by Sanskar Prasad" />
+        <img className="hero-portrait" src={`${baseUrl}hero-3d-cutout.png`} alt="3D portrait inspired by Sanskar Prasad" />
       </div>
       <div className="hero-bottom">
         <p>ai/ml engineer and full-stack developer building production systems, dashboards, and automation</p>
