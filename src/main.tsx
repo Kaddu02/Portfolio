@@ -214,10 +214,10 @@ function MarqueeSection() {
 function AboutSection() {
   return (
     <section className="about-section" id="about">
-      <FadeIn className="corner moon" delay={0.1}><img src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/moon_icon.11395d36.png" alt="" /></FadeIn>
-      <FadeIn className="corner lego" delay={0.15}><img src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/lego_icon-1.703bb594.png" alt="" /></FadeIn>
-      <FadeIn className="corner object" delay={0.25}><img src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/p59_1.4659672e.png" alt="" /></FadeIn>
-      <FadeIn className="corner group" delay={0.3}><img src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/Group_134-1.2e04f3ce.png" alt="" /></FadeIn>
+      <FadeIn className="corner moon" delay={0.1}><span aria-hidden="true" className="corner-art moon-art" /></FadeIn>
+      <FadeIn className="corner lego" delay={0.15}><span aria-hidden="true" className="corner-art lego-art" /></FadeIn>
+      <FadeIn className="corner object" delay={0.25}><span aria-hidden="true" className="corner-art object-art" /></FadeIn>
+      <FadeIn className="corner group" delay={0.3}><span aria-hidden="true" className="corner-art group-art" /></FadeIn>
       <div className="about-content">
         <FadeIn><h2 className="hero-heading section-title">About me</h2></FadeIn>
         <FadeIn delay={0.15}><AnimatedText text="Software developer and computer science graduate specializing in AI & ML, with hands-on experience in full-stack engineering and machine learning applications. I enjoy building responsive web apps, REST APIs, backend services, and data-driven solutions using Python, Node.js, FastAPI, React, SQL, and NoSQL databases." /></FadeIn>
